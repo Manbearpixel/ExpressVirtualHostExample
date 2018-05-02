@@ -1,0 +1,17 @@
+{
+  "name": "ExpressVirtualHostExample",
+  "version": "0.1.0",
+  "description": "",
+  "main": "boot.js",
+  "scripts": {
+    "start": "node boot.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "(cd admin && npm install); (cd dash && npm install); (cd proto && npm install)"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "vhost": "^3.0.2"
+  }
+}
